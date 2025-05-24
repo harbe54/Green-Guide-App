@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGuide</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>GreenGuide</h1>
+         <div class="navbar">
+      <button class="toggle-button" onclick="toggleMenu()">☰ Menu</button>
+    <div class="menu" id="menu">
+     <Li><a href="#">Eco Community</a></Li>
+     <Li><a href="#">Local Hub</a></Li>
+     <Li> <a href="#">Collaboration</a></Li>
+     <Li><a href="#">Nutrition</a></Li>
+     <Li><a href="#">Climate Data</a></Li>
+     <Li><a href="#">Q&A</a></Li>
+    </div>
+  </div>
+
+    </header>
+
+    <main>
+        <section class="search-area">
+            <h1>Find Your Soil Type</h1>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+        </section>
+
+        <section class="features">
+            <div class="feature" id="nutrition">
+                <img src="forest.png" alt="forest" height="200px" width="200px">
+                <p> Community</p>
+            </div>
+            <div class="feature" id="impact">
+                <img src="gamepad.png" alt="gamepad" height="200px" width="200px">
+                <p>Eco Community</p>
+            </div>
+            <div class="feature" id="community">
+                <img src="handshake.png" alt="handshake" height="200px" width="200px">
+                <p>Collaboration</p>
+            </div>
+            <div class="feature" id="climate">
+                <img src="house.png" alt="house" height="200px" width="200px">
+                <p>Local Hub</p>
+            </div>
+            <br>
+            <div class="feature" id="qa">
+                <img src="icons8-apple-58.png" alt="icons8-apple" height="200px" width="200px">
+                <p>Nutrition</p>
+            </div>
+            <div class="feature" id="local">
+                <img src="security.png" alt="security" height="200px" width="200px">
+                <p>Climate Data</p>
+            </div>
+            <div class="feature" id="collab">
+                <img src="track.png" alt="track" height="200px" width="200px">
+                <p>Collaborate</p>
+            </div>
+            <div class="feature" id="game">
+                <img src="question (1).png" alt="question" height="200px" width="200px">
+                <p>Q&A</p>
+            </div>
+        </section>
+
+        <section id="results">
+            <!-- Dynamic soil results shown here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GreenGuide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
